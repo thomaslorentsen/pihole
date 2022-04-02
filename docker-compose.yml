@@ -8,6 +8,7 @@ services:
     network_mode: "host"
     environment:
       TZ: 'Europe/London'
+      WEBPASSWORD: admin
     # Volumes store your data between container upgrades
     volumes:
       - '/etc/pihole:/etc/pihole'
